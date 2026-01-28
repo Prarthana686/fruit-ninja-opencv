@@ -1,6 +1,6 @@
-Fruit Ninja – Hand Gesture Game
+## **Fruit Ninja – Hand Gesture Game**
 
-**Description**
+## **Description**
 
 - The Fruit Ninja Hand Gesture Game is an interactive computer-vision project built using Python, OpenCV, and MediaPipe.  
 - It allows users to slice falling fruits in real time using hand gestures captured through a webcam.
