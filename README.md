@@ -1,65 +1,97 @@
-Fruit Ninja – Hand Gesture Game 🎮🍎
+Fruit Ninja – Hand Gesture Game
 
-The Fruit Ninja Hand Gesture Game is an interactive computer-vision project built using Python, OpenCV, and MediaPipe.
-It allows players to slice falling fruits in real time using hand gestures captured through a webcam.
+**Description**
 
-This project demonstrates real-time hand tracking, gesture recognition, and interactive game logic using computer vision techniques.
+- The Fruit Ninja Hand Gesture Game is an interactive computer-vision project built using Python, OpenCV, and MediaPipe.  
+- It allows users to slice falling fruits in real time using hand gestures captured through a webcam.
+- This project demonstrates real-time hand tracking, gesture recognition, and interactive game logic using computer vision techniques.
 
-🚀 Features
+---
 
-Slice fruits using hand gestures
+## **Features**
+- Slice fruits using hand gestures
+- Real-time hand tracking using MediaPipe
+- Neon sword / slash visual effect
+- Fruit split animation on slicing
+- Bomb detection with game-over logic
+- Live score tracking
+- Works with a standard webcam
 
-Real-time hand tracking with MediaPipe
+---
 
-Neon sword / slash visual effect
+## **Tech Stack**
+- **Python** – Core programming language
+- **OpenCV** – Image processing and rendering
+- **MediaPipe** – Hand landmark detection
+- **NumPy** – Numerical operations
 
-Fruit split animation on slicing
+---
 
-Bomb detection with game-over logic
+## **How to Use**
+- Create and activate a virtual environment
+- Install required dependencies
+- Run the Python script
+- Use your hand in front of the webcam to slice fruits
+- Avoid bombs to keep the game running
 
-Live score tracking
+---
 
-Works with a standard webcam
+## **Setup & Run**
 
-🛠️ Tech Stack
+**Create and activate virtual environment**
+```bash
+python -m venv venv
+venv\Scripts\activate
 
-Python – Core programming language
+---
 
-OpenCV – Image processing and rendering
+Install dependencies
 
-MediaPipe – Hand landmark detection
+pip install opencv-python mediapipe numpy
 
-NumPy – Numerical operations
+---
 
-💡 How to Use
+Run the game
 
-Create and activate a virtual environment
+python hand_tracking.py
 
-Install required dependencies
+---
 
-Run the Python script
+Requirements
+- Webcam must be connected
+- assets/ folder must be present
+- Python version 3.10 or higher
 
-Use your hand in front of the webcam to slice fruits
+---
 
-Avoid bombs to keep the game running
+Project Structure
 
-📂 Project Files
+fruit-ninja-opencv/
+├── assets/
+│   ├── apple.png
+│   ├── banana.png
+│   ├── orange.png
+│   └── bomb.png
+├── hand_tracking.py
+├── webcam_test.py
+├── .gitignore
+└── README.md
 
-hand_tracking.py – Main game logic
+---
 
-assets/ – Game images (fruits and bomb)
+Inspiration & Credits 
 
-webcam_test.py – Webcam testing script
+- Inspired by Fruit Ninja–style gesture-based games and computer-vision demos
+- Implementation and logic were developed as a learning exercise with guidance and reference support
 
-🧠 Inspiration
+---
 
-This project was inspired by Fruit Ninja–style gesture games and computer-vision demos.
-The implementation and logic were written independently as a learning exercise.
+Disclaimer
 
-⚠️ Disclaimer
+- This project is created for educational purposes only
+- It is not affiliated with or endorsed by the official Fruit Ninja game 
 
-This project is created for educational purposes only and is not affiliated with the official Fruit Ninja game.
+---
 
-🧠 Author
-
-Developed by Prarthana Bharathiraja ✨
+Author
+Prarthana Bharathiraja
